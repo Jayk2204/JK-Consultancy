@@ -69,12 +69,17 @@ document.addEventListener('DOMContentLoaded', function() {
         'contact-btn': 'Contact on WhatsApp',
         
         // About Section
-        'about-title': 'About JK Consultancy',
-        'about-desc1': 'JK Consultancy has been helping people with their document needs since 2023. We specialize in all government document services with 100% genuine process.',
-        'about-desc2': 'We will guide you through the entire process and ensure you get your documents without any hassle.',
-        'feature1': 'Fast Processing',
-        'feature2': 'Genuine Service',
-        'feature3': 'Expert Guidance',
+       'about-title': 'JK Consultancy - Your Document Solutions',
+  'timeline-1-title': 'Founded in 2022',
+  'timeline-1-desc': 'Started with a vision to simplify document processes in Ahmedabad',
+  'timeline-2-title': '1000+ Clients Served',
+  'timeline-2-desc': 'Trusted by families & businesses across Gujarat',
+  'usp-1-title': 'Gujarati & English Support',
+  'usp-1-desc': 'We speak your language for clear communication',
+  'usp-2-title': 'Zero Rejections',
+  'usp-2-desc': '100% approval rate for applications we process',
+  'founder-quote': `"Our mission is to turn your document struggles into 1-day solutions.<br>
+                   Leave the paperwork worries to us!"`,
         
         // Contact Section
         'contact-title': 'Contact Us',
@@ -108,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'abha-footer': 'ABHA Card',
         'aadhaar-footer': 'Aadhaar Services',
         'contact-footer': 'Contact',
-        'copyright': '© 2023 JK Consultancy. All Rights Reserved.'
+        'copyright': '© 2025 JK Consultancy. All Rights Reserved.'
     };
     
     // Gujarati content
@@ -177,12 +182,17 @@ document.addEventListener('DOMContentLoaded', function() {
         'contact-btn': 'WhatsApp પર સંપર્ક કરો',
         
         // About Section
-        'about-title': 'JK કન્સલ્ટન્સી વિશે',
-        'about-desc1': 'JK કન્સલ્ટન્સી 2023 થી લોકોને તેમના ડોક્યુમેન્ટ જરૂરિયાતોમાં મદદ કરી રહી છે. અમે 100% જેન્યુઇન પ્રક્રિયા સાથે તમામ સરકારી ડોક્યુમેન્ટ સેવાઓમાં વિશેષતા ધરાવીએ છીએ.',
-        'about-desc2': 'અમારી નિષ્ણાત ટીમ તમને સંપૂર્ણ પ્રક્રિયા દરમિયાન માર્ગદર્શન આપશે અને તમને કોઈ પણ મુશ્કેલી વિના તમારા ડોક્યુમેન્ટ્સ મળે તેની ખાતરી કરશે.',
-        'feature1': 'ઝડપી પ્રક્રિયા',
-        'feature2': 'જેન્યુઇન સેવા',
-        'feature3': 'નિષ્ણાત માર્ગદર્શન',
+        'about-title': 'જે.કે. કન્સલ્ટન્સી - તમારી ડોક્યુમેન્ટ સોલ્યુશન્સ',
+  'timeline-1-title': '૨૦૨૨માં સ્થાપના',
+  'timeline-1-desc': 'અમદાવાદમાં ડોક્યુમેન્ટ પ્રક્રિયાઓ સરળ બનાવવાની દ્રષ્ટિથી શરૂઆત',
+  'timeline-2-title': '૧૦૦૦+ ક્લાયન્ટ્સ',
+  'timeline-2-desc': 'ગુજરાતભરના પરિવારો અને વ્યવસાયોનો વિશ્વાસ',
+  'usp-1-title': 'ગુજરાતી અને અંગ્રેજી સપોર્ટ',
+  'usp-1-desc': 'અમે તમારી ભાષામાં સ્પષ્ટ સંચાર કરીએ છીએ',
+  'usp-2-title': 'શૂન્ય નામંજૂરી',
+  'usp-2-desc': 'અમે પ્રોસેસ કરેલી અરજીઓનો ૧૦૦% અપ્રૂવલ રેટ',
+  'founder-quote': `"અમારું ધ્યેય તમારી ડોક્યુમેન્ટ સમસ્યાઓને 1-દિવસની સોલ્યુશન્સમાં ફેરવવાનું છે.<br>
+                   પત્રકોની ચિંતા છોડો, અમે સંભાળીશું!"`,
         
         // Contact Section
         'contact-title': 'અમારો સંપર્ક કરો',
@@ -216,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'abha-footer': 'આભા કાર્ડ',
         'aadhaar-footer': 'આધારકાર્ડ સેવાઓ',
         'contact-footer': 'સંપર્ક',
-        'copyright': '© 2023 JK કન્સલ્ટન્સી. બધા હક્કો અનામત.'
+        'copyright': '© 2025 JK કન્સલ્ટન્સી. બધા હક્કો અનામત.'
     };
     
     // Function to set language
