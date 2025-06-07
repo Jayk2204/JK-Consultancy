@@ -1,0 +1,109 @@
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Element Animations */
+.hero-content {
+    animation: fadeIn 1s ease forwards, slideInLeft 1s ease forwards;
+}
+
+.hero-image {
+    animation: fadeIn 1s ease forwards, slideInRight 1s ease forwards;
+}
+
+.service-card {
+    animation: fadeIn 1s ease forwards;
+}
+
+.service-card:nth-child(1) { animation-delay: 0.1s; }
+.service-card:nth-child(2) { animation-delay: 0.2s; }
+.service-card:nth-child(3) { animation-delay: 0.3s; }
+.service-card:nth-child(4) { animation-delay: 0.4s; }
+.service-card:nth-child(5) { animation-delay: 0.5s; }
+.service-card:nth-child(6) { animation-delay: 0.6s; }
+
+.about-text {
+    animation: fadeIn 1s ease forwards, slideInLeft 1s ease forwards;
+}
+
+.about-image {
+    animation: fadeIn 1s ease forwards, slideInRight 1s ease forwards;
+}
+
+.contact-info {
+    animation: fadeIn 1s ease forwards, slideInLeft 1s ease forwards;
+}
+
+.contact-form {
+    animation: fadeIn 1s ease forwards, slideInRight 1s ease forwards;
+}
+
+.whatsapp-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Hover Effects */
+.btn:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.service-card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.info-item:hover i {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

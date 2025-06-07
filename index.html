@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Consultancy - Document Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="en-btn" class="active">EN</button>
+        <button id="gu-btn">GU</button>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/YOUR_NUMBER" class="whatsapp-float" target="_blank">
+        <img src="assets/whatsapp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>JK Consultancy</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="lang-home">Home</a></li>
+                    <li><a href="#services" class="lang-services">Services</a></li>
+                    <li><a href="#about" class="lang-about">About Us</a></li>
+                    <li><a href="#contact" class="lang-contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="lang-hero-title">Your Complete Document Solution Provider</h1>
+                <p class="lang-hero-sub">Get all your documents - Aadhar, PAN, Ration Card and more - quickly and reliably</p>
+                <a href="#services" class="btn lang-explore-btn">Explore Services</a>
+            </div>
+            <div class="hero-image">
+                <div class="document-stack">
+                    <img src="images/services/aadhar-sample.jpg" class="doc1" alt="Aadhar Sample">
+                    <img src="images/services/pan-sample.jpg" class="doc2" alt="PAN Sample">
+                    <img src="images/services/election-sample.jpg" class="doc3" alt="Election Card Sample">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title lang-services-title">Our Services</h2>
+            <p class="section-subtitle lang-services-sub">Click on any service to see requirements and process</p>
+            
+            <div class="services-grid">
+                <!-- PAN Card New -->
+                <div class="service-card" data-service="pan-new">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h3 class="lang-pan-new-title">PAN Card (New)</h3>
+                        <p class="lang-pan-new-desc">New Application</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-pan-new-req">Requirements:</h3>
+                        <ul class="lang-pan-new-list">
+                            <li>Aadhaar Card Photo</li>
+                            <li>Signature Photo</li>
+                            <li>Passport Size Photo</li>
+                            <li>Mobile Number</li>
+                            <li>Father's Full Name</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20New%20PAN%20Card%20Application" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PAN Card Correction -->
+                <div class="service-card" data-service="pan-correction">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <h3 class="lang-pan-correction-title">PAN Card (Correction)</h3>
+                        <p class="lang-pan-correction-desc">Update/Correct Details</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-pan-correction-req">Requirements:</h3>
+                        <ul class="lang-pan-correction-list">
+                            <li>Aadhaar Card Photo</li>
+                            <li>Existing PAN Card Photo</li>
+                            <li>Signature Photo</li>
+                            <li>Passport Size Photo</li>
+                            <li>Mobile Number</li>
+                            <li>Father's Full Name</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20New%20PAN%20Card%20Application" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Election Card -->
+                <div class="service-card" data-service="election">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-vote-yea"></i>
+                        </div>
+                        <h3 class="lang-election-title">Election Card (New/Correction)</h3>
+                        <p class="lang-election-desc">Voter ID Services</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-election-req">Requirements:</h3>
+                        <ul class="lang-election-list">
+                            <li>Aadhaar Card Photo</li>
+                            <li>Passport Size Photo</li>
+                            <li>Electricity Bill</li>
+                            <li>Mobile Number</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20Election%20Card" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ayushman Card -->
+                <div class="service-card" data-service="ayushman">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="lang-ayushman-title">Ayushman Card</h3>
+                        <p class="lang-ayushman-desc">Health Insurance Scheme</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-ayushman-req">Requirements:</h3>
+                        <ul class="lang-ayushman-list">
+                            <li>Income Proof Photo</li>
+                            <li>Ration Card Photo</li>
+                            <li>Each family member's Aadhaar Card</li>
+                            <li>Mobile Number</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20Ayushman%20Card" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-Shram Card -->
+                <div class="service-card" data-service="eshram">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <h3 class="lang-eshram-title">E-Shram Card</h3>
+                        <p class="lang-eshram-desc">For Unorganized Workers</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-eshram-req">Requirements:</h3>
+                        <ul class="lang-eshram-list">
+                            <li>Aadhaar Card Photo</li>
+                            <li>Bank Passbook Photo</li>
+                            <li>Nominee's Aadhaar Card</li>
+                            <li>Mobile Number</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20E-Shram%20Card" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ABHA Card -->
+                <div class="service-card" data-service="abha">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-id-card-alt"></i>
+                        </div>
+                        <h3 class="lang-abha-title">ABHA Card</h3>
+                        <p class="lang-abha-desc">Health ID Card</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-abha-req">Requirements:</h3>
+                        <ul class="lang-abha-list">
+                            <li>Aadhaar Card Photo</li>
+                            <li>Blood Group</li>
+                            <li>Mobile Number</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20ABHA%20Card" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Aadhaar Name/Address Correction -->
+                <div class="service-card" data-service="aadhaar-correction">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-user-edit"></i>
+                        </div>
+                        <h3 class="lang-aadhaar-correction-title">Aadhaar Correction (Name/Address)</h3>
+                        <p class="lang-aadhaar-correction-desc">Update Details</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-aadhaar-correction-req">Requirements:</h3>
+                        <ul class="lang-aadhaar-correction-list">
+                            <li>Election Card Photo OR</li>
+                            <li>Driving License Photo OR</li>
+                            <li>Passport Photo</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20Aadhaar%20Correction%20(Name/Address)" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Aadhaar DOB Correction -->
+                <div class="service-card" data-service="aadhaar-dob">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h3 class="lang-aadhaar-dob-title">Aadhaar Correction (DOB)</h3>
+                        <p class="lang-aadhaar-dob-desc">Date of Birth Update</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-aadhaar-dob-req">Requirements:</h3>
+                        <ul class="lang-aadhaar-dob-list">
+                            <li>Passport Photo OR</li>
+                            <li>Birth Certificate Photo</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20Aadhaar%20DOB%20Correction" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Aadhaar Mobile Linking -->
+                <div class="service-card" data-service="aadhaar-mobile">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="lang-aadhaar-mobile-title">Aadhaar Mobile Linking</h3>
+                        <p class="lang-aadhaar-mobile-desc">Link Mobile Number</p>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="lang-aadhaar-mobile-req">Requirements:</h3>
+                        <ul class="lang-aadhaar-mobile-list">
+                            <li>Aadhaar Card</li>
+                            <li>Mobile Number</li>
+                        </ul>
+                        <a href="https://wa.me/919106153615?text=I%20need%20help%20with%20Aadhaar%20Mobile%20Linking" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span class="lang-contact-btn">Contact on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title lang-about-title">About JK Consultancy</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lang-about-desc1">JK Consultancy has been helping people with their document needs since 2010. We specialize in all government document services with 100% genuine process.</p>
+                    <p class="lang-about-desc2">Our team of experts will guide you through the entire process and ensure you get your documents without any hassle.</p>
+                    <ul class="features-list">
+                        <li class="lang-feature1"><i class="fas fa-check-circle"></i> Fast Processing</li>
+                        <li class="lang-feature2"><i class="fas fa-check-circle"></i> Genuine Service</li>
+                        <li class="lang-feature3"><i class="fas fa-check-circle"></i> Expert Guidance</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/office.jpg" alt="JK Consultancy Office">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title lang-contact-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3 class="lang-call">Call Us</h3>
+                        <p>+91 91061 53615</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3 class="lang-whatsapp">WhatsApp</h3>
+                        <a href="https://wa.me/919106153615" target="_blank" class="lang-click-here">Click here to chat</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3 class="lang-address">Address</h3>
+                        <p class="lang-office-address">A/36,Gayatri Society,Geratpur,Ahmedabad-382435</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="lang-name-placeholder" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="lang-email-placeholder" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" class="lang-phone-placeholder" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="lang-service-placeholder" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="pan-new" class="lang-option-pan-new">PAN Card (New)</option>
+                                <option value="pan-correction" class="lang-option-pan-correction">PAN Card (Correction)</option>
+                                <option value="election" class="lang-option-election">Election Card</option>
+                                <option value="ayushman" class="lang-option-ayushman">Ayushman Card</option>
+                                <option value="eshram" class="lang-option-eshram">E-Shram Card</option>
+                                <option value="abha" class="lang-option-abha">ABHA Card</option>
+                                <option value="aadhaar-correction" class="lang-option-aadhaar-correction">Aadhaar Correction</option>
+                                <option value="aadhaar-mobile" class="lang-option-aadhaar-mobile">Aadhaar Mobile Linking</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" class="lang-message-placeholder" required></textarea>
+                        </div>
+                        <button type="submit" class="btn lang-submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 class="lang-quick-links">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" class="lang-home">Home</a></li>
+                        <li><a href="#services" class="lang-services">Services</a></li>
+                        <li><a href="#about" class="lang-about">About Us</a></li>
+                        <li><a href="#contact" class="lang-contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="lang-services-footer">Services</h3>
+                    <ul>
+                        <li><a href="#" class="lang-pan-footer">PAN Card</a></li>
+                        <li><a href="#" class="lang-election-footer">Election Card</a></li>
+                        <li><a href="#" class="lang-ayushman-footer">Ayushman Card</a></li>
+                        <li><a href="#" class="lang-eshram-footer">E-Shram Card</a></li>
+                        <li><a href="#" class="lang-abha-footer">ABHA Card</a></li>
+                        <li><a href="#" class="lang-aadhaar-footer">Aadhaar Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="lang-contact-footer">Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 XXXXX XXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@jkconsultancy.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span class="lang-office-address">A/36,Gayatri Society,Geratpur,Ahmedabad-382435</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="lang-copyright">&copy; 2023 JK Consultancy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language-toggle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
