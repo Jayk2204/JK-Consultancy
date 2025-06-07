@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // About Section
         'about-title': 'About JK Consultancy',
-        'about-desc1': 'JK Consultancy has been helping people with their document needs since 2010. We specialize in all government document services with 100% genuine process.',
-        'about-desc2': 'Our team of experts will guide you through the entire process and ensure you get your documents without any hassle.',
+        'about-desc1': 'JK Consultancy has been helping people with their document needs since 2023. We specialize in all government document services with 100% genuine process.',
+        'about-desc2': 'We will guide you through the entire process and ensure you get your documents without any hassle.',
         'feature1': 'Fast Processing',
         'feature2': 'Genuine Service',
         'feature3': 'Expert Guidance',
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'whatsapp': 'WhatsApp',
         'click-here': 'Click here to chat',
         'address': 'Address',
-        'office-address': 'Office No. 5, JK Complex, Main Road, City, Gujarat',
+        'office-address': 'A/36, Gayatri Society, Geratpur, Ahmedabad-382435',
         'name-placeholder': 'Your Name',
         'email-placeholder': 'Your Email',
         'phone-placeholder': 'Phone Number',
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // About Section
         'about-title': 'JK કન્સલ્ટન્સી વિશે',
-        'about-desc1': 'JK કન્સલ્ટન્સી 2010 થી લોકોને તેમના ડોક્યુમેન્ટ જરૂરિયાતોમાં મદદ કરી રહી છે. અમે 100% જેન્યુઇન પ્રક્રિયા સાથે તમામ સરકારી ડોક્યુમેન્ટ સેવાઓમાં વિશેષતા ધરાવીએ છીએ.',
+        'about-desc1': 'JK કન્સલ્ટન્સી 2023 થી લોકોને તેમના ડોક્યુમેન્ટ જરૂરિયાતોમાં મદદ કરી રહી છે. અમે 100% જેન્યુઇન પ્રક્રિયા સાથે તમામ સરકારી ડોક્યુમેન્ટ સેવાઓમાં વિશેષતા ધરાવીએ છીએ.',
         'about-desc2': 'અમારી નિષ્ણાત ટીમ તમને સંપૂર્ણ પ્રક્રિયા દરમિયાન માર્ગદર્શન આપશે અને તમને કોઈ પણ મુશ્કેલી વિના તમારા ડોક્યુમેન્ટ્સ મળે તેની ખાતરી કરશે.',
         'feature1': 'ઝડપી પ્રક્રિયા',
         'feature2': 'જેન્યુઇન સેવા',
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'whatsapp': 'WhatsApp',
         'click-here': 'ચેટ કરવા માટે અહીં ક્લિક કરો',
         'address': 'સરનામું',
-        'office-address': 'ઓફિસ નંબર 5, JK કોમ્પ્લેક્સ, મુખ્ય રોડ, શહેર, ગુજરાત',
+        'office-address': 'એ/૩૬, ગાયત્રી સોસાયટી, ગેરતપુર, અમદાવાદ-૩૮૨૪૩૫',
         'name-placeholder': 'તમારું નામ',
         'email-placeholder': 'તમારું ઇમેઇલ',
         'phone-placeholder': 'ફોન નંબર',
